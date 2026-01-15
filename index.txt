@@ -1,0 +1,92 @@
+🚀 STARTING MONGODB CRUD OPERATIONS
+========================================================================
+✅ Connected to MongoDB successfully!
+
+📝 Collection already exists. Skipping initial insertion.
+
+📋 ALL CONTACTS:
+========================================================================
+ID                      Name                    Email                         Age
+--------------------------------------------------------------------------------
+65a1b2c3d4e5f6789012345 Moris Ben               ben@gmail.com                 26
+65a1b2c3d4e5f6789012346 Seif Kefi               kefi@gmail.com                15
+65a1b2c3d4e5f6789012347 brouge Emilie           emilie.b@gmail.com            40
+65a1b2c3d4e5f6789012348 brown Alex              N/A                           4
+65a1b2c3d4e5f6789012349 Washington Denzel       N/A                           3
+
+Total contacts: 5
+
+🔍 CONTACT WITH ID: 65a1b2c3d4e5f6789012345
+========================================================================
+CONTACT DETAILS:
+----------------------------------------
+ID: 65a1b2c3d4e5f6789012345
+First Name: Moris
+Last Name: Ben
+Full Name: Moris Ben
+Email: ben@gmail.com
+Age: 26
+----------------------------------------
+
+🎓 CONTACTS OVER 18 YEARS OLD:
+========================================================================
+Name                          Email                         Age
+--------------------------------------------------------------------------------
+Moris Ben                     ben@gmail.com                 26
+brouge Emilie                 emilie.b@gmail.com            40
+
+Total contacts over 18: 2
+
+🔍 CONTACTS OVER 18 WITH 'ah' IN NAME:
+========================================================================
+Name                          Email                         Age
+--------------------------------------------------------------------------------
+Washington Denzel             N/A                           3
+
+No contacts found matching the criteria.
+
+✏️  UPDATING KEFI SEIF TO KEFI ANIS:
+========================================================================
+✅ Successfully updated 'Kefi Seif' to 'Kefi Anis'.
+
+Updated Contact Details:
+----------------------------------------
+Name: Anis Kefi
+Email: kefi@gmail.com
+Age: 15
+
+🗑️  DELETING CONTACTS UNDER 5 YEARS OLD:
+========================================================================
+Contacts to be deleted:
+----------------------------------------
+brown Alex (Age: 4)
+Washington Denzel (Age: 3)
+
+About to delete 2 contact(s)...
+✅ Deleted 2 contact(s) under 5 years old.
+
+========================================================================
+📋 FINAL CONTACTS LIST:
+========================================================================
+ID                      Name                    Email                         Age
+--------------------------------------------------------------------------------
+65a1b2c3d4e5f6789012345 Moris Ben               ben@gmail.com                 26
+65a1b2c3d4e5f6789012346 Anis Kefi               kefi@gmail.com                15
+65a1b2c3d4e5f6789012347 brouge Emilie           emilie.b@gmail.com            40
+
+Total contacts: 3
+
+📊 CONTACT STATISTICS:
+========================================================================
+Total Contacts: 3
+Adults (>18): 2
+Children (≤18): 1
+Contacts with Email: 3
+Average Age: 27.0 years
+
+Age Distribution:
+  13-20: 1 contact(s)
+  30-40: 2 contact(s)
+
+========================================================================
+✅ ALL OPERATIONS COMPLETED SUCCESSFULLY!
