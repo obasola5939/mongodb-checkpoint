@@ -1,0 +1,22 @@
+{
+  "name": "mongodb-contact-management",
+  "version": "1.0.0",
+  "description": "MongoDB CRUD operations for contact management",
+  "main": "mongodb-operations.js",
+  "scripts": {
+    "start": "node mongodb-operations.js",
+    "cli": "node cli-interface.js",
+    "test": "node test-operations.js",
+    "reset": "node reset-database.js"
+  },
+  "dependencies": {
+    "mongodb": "^5.7.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "keywords": ["mongodb", "crud", "database", "contact-management"],
+  "author": "Your Name",
+  "license": "MIT"
+}
